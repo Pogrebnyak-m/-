@@ -1,5 +1,6 @@
 package com.company;
 
+public class Main {
 public static void main(String[] args) {
         String str = "1";
         int a = useInteger(str);
@@ -14,3 +15,4 @@ public static void main(String[] args) {
     public static double useDouble(String b1){
         return Double.parseDouble(b1);
     }
+}
